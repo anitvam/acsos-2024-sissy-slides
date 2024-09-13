@@ -71,51 +71,26 @@ Agents are modeled through three main abstractions:
 
 ---
 
-## Context
-#### Autonomic Computing
+## Why did interest in BDI decrease?
 
-<br/>
+### Hypothesis 1: paradigmatic issues
 
-{{% multicol %}}{{% col %}}
+Unlikely: systems that use it were commonly proposed in the past
 
-<img src="images/autonomic-diagram.svg" width="100%" />
+### Hypothesis 2: technological gaps
 
-<div class="mx-5 text-center">
+- Cumbersome interoperability with General Purpose Languages (*GPL*)
+- Hard to mix-and-match paradigms as modern languages do (*FP*, *OOP*, *IP*, *LP*)
+- Poor tooling (IDEs, code suggestions, syntax highlighters, linters...)
+- Poor reuse mechanisms
 
-## *<i class="fa-solid fa-arrow-up"></i> MAPE-K* 
-Reference <u>model</u> for *Autonomic* and *self-\** systems design. 
+### Hypothesis 2 + 1
 
-</div>
+**Gaps in technology accumulated** to the point that
+**the paradigm became inconvenient**
+compared to modern GPLs
 
-{{% /col %}}{{% col  %}}
-
-<div class="mx-5 text-center">
-
-{{% fragment %}}
-
-<img src="images/bdi-diagram.svg" width="100%" />
-
-## *<i class="fa-solid fa-arrow-up"></i> BDI* 
-Reference <u>framework</u> (*AgentSpeak(L)*) for *Multi-Agent Systems*. 
-
-{{% /fragment %}}
-
-</div>
-
-{{% /col %}}{{% /multicol %}}
-
-{{% fragment %}}
-<div class="position-absolute">
-<iframe src="https://giphy.com/embed/g01ZnwAUvutuK8GIQn" width="100%" height="100%" frameBorder="0" class="fixed-top" allowFullScreen></iframe>
-
-<div class="fixed-top " style="color:white">
-
-<h2 style="color:white"> Why isn't BDI common in autonomic loops? </h2>
-
-</div>
-
-</div>
-{{% /fragment %}}
+### $\Rightarrow$ improve the technology to improve the paradigm to improve the technology to...
 
 ---
 
@@ -142,29 +117,6 @@ Reference <u>framework</u> (*AgentSpeak(L)*) for *Multi-Agent Systems*.
 [6] Palanca, J., Rincon, J.A., Carrascosa, C., Julián, V., Terrasa, A.. "A flexible agent architecture in SPADE." (2022)
 </small>
 </div>
-
----
-
-## Why did interest in BDI decrease?
-
-### Hypothesis 1: paradigmatic issues
-
-Unlikely: systems that use it were commonly proposed in the past
-
-### Hypothesis 2: technological gaps
-
-- Cumbersome interoperability with General Purpose Languages (*GPL*)
-- Hard to mix-and-match paradigms as modern languages do (*FP*, *OOP*, *IP*, *LP*)
-- Poor tooling (IDEs, code suggestions, syntax highlighters, linters...)
-- Poor reuse mechanisms
-
-### Hypothesis 2 + 1
-
-**Gaps in technology accumulated** to the point that
-**the paradigm became inconvenient**
-compared to modern GPLs
-
-### $\Rightarrow$ improve the technology to improve the paradigm to improve the technology to...
 
 ---
 
