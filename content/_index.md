@@ -57,7 +57,7 @@ Reference <u>framework</u> (*AgentSpeak(L)*) for *Multi-Agent Systems*.
 
 <div class="fixed-top " style="color:white">
 
-<h2 style="color:white"> Why don't use BDI to address AC problems? </h2>
+<h2 style="color:white"> Why isn't BDI common in autonomic loops? </h2>
 
 </div>
 
