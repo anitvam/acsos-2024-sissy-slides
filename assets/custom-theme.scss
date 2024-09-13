@@ -72,8 +72,13 @@ section.has-light-background {
 	font-weight: bold;
 }
 
+.reveal h4 {
+	text-transform: none;
+}
+
 .reveal em {
 	font-style: italic;
+	color: #26736aff;
 }
 
 .reveal section img {
@@ -255,18 +260,18 @@ kbd {
 
 .reveal .slide-background {
 	background-color: $backgroundColor;
-	background-image: url("../images/logo.svg");
+	background-image: url("../example-background.svg");
 	background-repeat: no-repeat;
-	background-position: -5% 94%;
+	background-position: 1% 98%;
 	background-size: 10%;
 	background-clip: border-box;
 }
 
 .reveal .slide-background:after {
-	content: "M. Baiardi, S. Burattini, G. Ciatto, D. Pianini, A. Ricci, A. Omicini - On the external concurrency of current BDI frameworks for MAS - EMAS 2024";
+	content: "D. Pianini, M. Baiardi, S. Burattini, G. Ciatto - Multi-Paradigm Integration for the BDI Resurgence - SISSY 2024";
 	position: absolute;
 	bottom: 2.5%;
-	left: 1%;
-	z-index: 10;
+	left: 13%;
+	z-index: -1;
 	font-size: .5em;
   }

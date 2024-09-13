@@ -1,6 +1,6 @@
-baseURL = "https://anitvam.github.io/emas-2024-bdi-concurrency-slides"
+baseURL = "https://anitvam.github.io/acsos-2024-sissy-slides/"
 languageCode = "en-us"
-title = "A Hugo theme for creating Reveal.js presentations"
+title = "Multi-Paradigm Integration for the BDI Resurgence"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"
