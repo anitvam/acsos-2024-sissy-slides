@@ -71,6 +71,10 @@ Agents are modeled through three main abstractions:
 
 ---
 
+<img src="images/paperz.png">
+
+---
+
 ## Why did interest in BDI decrease?
 
 ### Hypothesis 1: paradigmatic issues
