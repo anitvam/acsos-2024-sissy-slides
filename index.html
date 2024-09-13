@@ -31,6 +31,54 @@
 Alma Mater Studiorum — Università di Bologna <br>
 Via dell’Università 50, 47522 Cesena (FC), Italy </small></p>
 </section><section>
+<h1 id="multi-paradigm-integration-for-the-span-stylecolor-aa0000bdispan-resurgence">Multi-Paradigm Integration for the <span style="color: #AA0000">BDI</span> Resurgence</h1>
+<br>
+<p>Danilo Pianini, <strong>Martina Baiardi</strong>, Samuele Burattini, and Giovanni Ciatto <br>
+<a href="mailto:m.baiardi@unibo.it">m.baiardi@unibo.it</a> <br><br></p>
+<p><small>Department of Computer Science and Engineering (DISI)<br>
+Alma Mater Studiorum — Università di Bologna <br>
+Via dell’Università 50, 47522 Cesena (FC), Italy </small></p>
+</section><section>
+<h1 id="bdi">BDI?</h1>
+<h2 id="beliefs-desires-intentions">Beliefs, Desires, Intentions</h2>
+<br>
+<ul>
+<li>It’s a framework to model Multi-Agent Systems through <em>Goals</em>
+<ul>
+<li>Reduces the <em>abstraction gap</em> between <em>cognitive abstractions</em> and the abstractions of common paradigms
+<ul>
+<li>cognitive entities are <strong>not functions</strong> (as they would in <em>functional</em> programming)</li>
+<li><strong>nor</strong> they are <em>objects</em> (as they would in <em>OOP</em>)</li>
+<li><strong>nor</strong> they are <strong>instructions</strong> (as they would in <em>Imperative</em> programming)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>BDI tries to minimise this gap in the abstraction
+<ul>
+<li>Mimicking human-level notions such as <em>beliefs</em>, <em>desires</em> and <em>intentions</em></li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h2 id="beliefs-desires-intentions-1">Beliefs, Desires, Intentions</h2>
+<br>
+<p>Agents are modeled through three main abstractions:</p>
+<ul>
+<li><em>Beliefs</em>: mental state of the agent, that changes over time.</li>
+<li><em>Desires</em>: motivational state of the system.</li>
+<li><em>Intentions</em>: deliberative state of the agent.</li>
+</ul>
+<div>
+<br>
+<small style="text-align: left"> 
+--- <br>
+[1] Bratman, Michael. "Intention, plans, and practical reason." (1987) <br>
+[2] Anand S. Rao and Michael P. Georgeff. "BDI agents: From theory to practice." (1995) <br>
+[3] Anand S. Rao. "Agentspeak(l): BDI agents speak out in a logical computable language." (1996) 
+</small>
+</div>
+</section><section>
 <h2 id="context">Context</h2>
 <h4 id="autonomic-computing">Autonomic Computing</h4>
 <br>
@@ -61,44 +109,6 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small></p>
 
 </span>
 
-</section><section>
-<h1 id="the-idea-is-not-new">The idea is not new</h1>
-<h2 id="it-simply-disappeared">It simply disappeared</h2>
-<p>grafico.</p>
-</section><section>
-<h2 id="beliefs-desires-intentions">Beliefs, Desires, Intentions</h2>
-<br>
-<ul>
-<li>It’s a framework to model Multi-Agent Systems through <em>Goals</em>
-<ul>
-<li><em>Imperative Paradigm</em> and <em>Functional Paradigm</em> are suboptimal to do so</li>
-<li>Huge <em>abstraction gap</em> between instruction and notion representation</li>
-</ul>
-</li>
-<li>BDI tries to minimise this gap in the abstraction
-<ul>
-<li>Mimicking human-level notions such as <em>beliefs</em>, <em>desires</em> and <em>intentions</em></li>
-</ul>
-</li>
-</ul>
-</section><section>
-<h2 id="beliefs-desires-intentions-1">Beliefs, Desires, Intentions</h2>
-<br>
-<p>Agents are modeled through three main abstractions:</p>
-<ul>
-<li><em>Beliefs</em>: mental state of the agent, that changes over time.</li>
-<li><em>Desires</em>: motivational state of the system.</li>
-<li><em>Intentions</em>: deliberative state of the agent.</li>
-</ul>
-<div>
-<br>
-<small style="text-align: left"> 
---- <br>
-[1] Bratman, Michael. "Intention, plans, and practical reason." (1987) <br>
-[2] Anand S. Rao and Michael P. Georgeff. "BDI agents: From theory to practice." (1995) <br>
-[3] Anand S. Rao. "Agentspeak(l): BDI agents speak out in a logical computable language." (1996) 
-</small>
-</div>
 </section><section>
 <h1 id="bdi-agent-programming-languages">BDI Agent Programming Languages</h1>
 
@@ -140,6 +150,48 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small></p>
 compared to modern GPLs</p>
 <h3 id="rightarrow-improve-the-technology-to-improve-the-paradigm-to-improve-the-technology-to">$\Rightarrow$ improve the technology to improve the paradigm to improve the technology to…</h3>
 </section><section>
+<h1 id="majority-of-bdi-tools-libraries">Majority of BDI tools: Libraries</h1>
+<br>
+<br>
+
+<div class="multiCol text-center"><div class="col col-50 col-75">
+<ul>
+<li>Built for mainstream languages</li>
+<li>Subject to the <em>syntactic restrictions</em> of their host language
+<ul>
+<li>“True” AOP/BDI feeling hardly achieved</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-50 col-25">
+<span class="fragment ">
+<h2 id="i-classfa-solid-fa-arrow-righti-custom-language"><i class="fa-solid fa-arrow-right"></i> <em>custom language</em></h2>
+</span>
+</div> </div>
+</section><section>
+<h1 id="aop-custom-languages">AOP Custom Languages</h1>
+<div>
+<div class=" w-50 m-auto text-right" style="text-align: left">
+<p><i class="fa-solid fa-check" style="color: green; margin-right: 10px"></i>
+Great ergonomy for BDI AOP (made by purpose)</p>
+<p><i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+BDI-specific, not multi-paradigm</p>
+<p><i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+Steep learning curve</p>
+<p><i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+Require custom tooling - IDEs, code suggestions, syntax highlighters, linters…</p>
+<p><i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+Small community</p>
+<p><i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+High maintenance cost!</p>
+</div>
+</div></section><section>
+<h1 id="a-hybrid-approach">A hybrid approach</h1>
+<figure><img src="/acsos-2024-sissy-slides/ergonomy.png" width="60%">
+</figure>
+
+</section><section>
 <h1 id="jakta-br-ujauson-like-ukuoutulin-uaugents-1">JaKtA: <br> <u>Ja</u>son-like <u>K</u>o<u>t</u>lin <u>A</u>gents [1]</h1>
 <p>Internal Domain-Specific Language (DSL) implemented in Kotlin</p>
 <ul>
@@ -167,6 +219,58 @@ compared to modern GPLs</p>
 </small>
 </div>
 </section><section>
+<h1 id="why-kotlin">Why kotlin?</h1>
+<br>
+
+<div class="multiCol "><div class="col col-50 "><ul>
+<li>Natively multi-paradigm (OOP + FP)</li>
+<li>Statically typed
+<ul>
+<li>With a good IDE, helps understanding what can be written where</li>
+</ul>
+</li>
+<li>Direct support to internal DSLs
+<ul>
+<li>a.k.a “Type-safe builders” in the Kotlin documentation</li>
+</ul>
+</li>
+<li>Support for multiplatform development</li>
+</ul>
+</div>
+<div class="col col-50 text-center">
+<ul>
+<li>Growing community
+<ul>
+<li>Strongly pushed by Google for Android</li>
+</ul>
+</li>
+</ul>
+<figure><img src="/acsos-2024-sissy-slides/android-kotlin.png" width="70%">
+</figure>
+</div></div>
+</section><section>
+<h2 id="jakta-multi-paradigm-aopbdioopfp">Jakta: multi-paradigm AOP/BDI+OOP+FP</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape=""><span style="display:flex;"><span><span style="color:#000">mas</span> <span style="color:#000;font-weight:bold">{</span>                                                   <span style="color:#8f5902;font-style:italic">// BDI specification
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>  <span style="color:#204a87;font-weight:bold">fun</span> <span style="color:#000">allPlayers</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">team</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000">String</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">=</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">Regex</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">"""&lt;a\s(\X*?)\sdata-cy="player"&gt;(.*)&lt;\/a&gt;"""</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">// Object-oriented regex library
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#000;font-weight:bold">.</span><span style="color:#000">findAll</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">URL</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">"https://www.besoccer.com/team/squad/</span><span style="color:#4e9a06">$team</span><span style="color:#4e9a06">"</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">readText</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">.</span><span style="color:#000">map</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">team</span> <span style="color:#000">to</span> <span style="color:#204a87;font-weight:bold">it</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">groupValues</span><span style="color:#000;font-weight:bold">[</span><span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#000;font-weight:bold">}</span>              <span style="color:#8f5902;font-style:italic">// Lambda expression (Functional style)
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000">listOf</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">"napoli"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"milan"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">"internazionale"</span><span style="color:#000;font-weight:bold">)</span>           <span style="color:#8f5902;font-style:italic">// Kotlin standard library
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>      <span style="color:#000;font-weight:bold">.</span><span style="color:#000">flatMap</span><span style="color:#000;font-weight:bold">(</span><span style="color:#ce5c00;font-weight:bold">::</span><span style="color:#000">allPlayers</span><span style="color:#000;font-weight:bold">)</span>                            <span style="color:#8f5902;font-style:italic">// Higher-order function (Functional style)
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>      <span style="color:#000;font-weight:bold">.</span><span style="color:#000">forEach</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">team</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">player</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">-&gt;</span>                      <span style="color:#8f5902;font-style:italic">// Destructuring declaration
+</span></span></span><span style="display:flex;"><span><span style="color:#8f5902;font-style:italic"></span>          <span style="color:#000">agent</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">player</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#000">beliefs</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">fact</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">squad</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">team</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">}</span> <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#000">goals</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">achieve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">start</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#000">plans</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#000;font-weight:bold">+</span><span style="color:#000">achieve</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">start</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000">onlyIf</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#000">squad</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">S</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">fromSelf</span> <span style="color:#000;font-weight:bold">}</span> <span style="color:#000">then</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                      <span style="color:#000">execute</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">"Hello! I play for"</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">S</span><span style="color:#000;font-weight:bold">))</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}.</span><span style="color:#000">start</span><span style="color:#000;font-weight:bold">()</span>
+</span></span></code></pre></div></section><section>
 <h2 id="future-work">Future work</h2>
 <p>JaKtA is still in its early stages, in the future we plan to:</p>
 <ul>
