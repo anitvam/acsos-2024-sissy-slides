@@ -134,7 +134,7 @@ Agents are modeled through three main abstractions:
 
 ---
 
-## Why community interest decreased for bdi tecnologies?
+## Why did interest in BDI decrease?
 
 BDI frameworks didn't follow latest technological developments:
 - Interoperability with other General Purpose Languages (*GPL*), improving modularity of a system implementation
