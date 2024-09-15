@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="94.807915mm"
+   height="36.894955mm"
+   viewBox="0 0 94.807915 36.894955"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         id="path1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         id="path1-5" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-31.023677,-108.98654)">
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:5.64444px;line-height:5.45999px;font-family:Akaash;-inkscape-font-specification:'Akaash Medium';text-align:center;text-anchor:middle;fill:#333333;stroke:#333333;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="107.37876"
+       y="123.50829"
+       id="text3"><tspan
+         id="tspan3"
+         style="stroke-width:0.2"
+         x="107.37876"
+         y="123.50829" /><tspan
+         style="stroke-width:0.2"
+         x="107.37876"
+         y="128.96828"
+         id="tspan4">PARADIGM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:5.64444px;line-height:6.56px;font-family:Akaash;-inkscape-font-specification:'Akaash Medium';text-align:center;text-anchor:middle;fill:#333333;stroke:#333333;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="76.549133"
+       y="138.00093"
+       id="text5-1"><tspan
+         style="line-height:6.56px;stroke-width:0.1;stroke-dasharray:none"
+         x="76.549133"
+         y="138.00093"
+         id="tspan6-2">improving</tspan><tspan
+         style="line-height:6.56px;stroke-width:0.1;stroke-dasharray:none"
+         x="76.549133"
+         y="144.56093"
+         id="tspan7-7">improves</tspan></text>
+    <path
+       style="fill:none;stroke:#333333;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide);paint-order:stroke fill markers"
+       d="m 47.644446,122.83177 c 9.023306,-11.52009 50.394953,-12.07495 57.852384,0.79304"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7);paint-order:stroke fill markers"
+       d="m 105.69082,131.62678 c -9.065965,10.96803 -50.246627,13.09136 -57.662604,0.22172"
+       id="path7-5" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:5.64444px;line-height:5.46px;font-family:Akaash;-inkscape-font-specification:'Akaash Medium';text-align:center;text-anchor:middle;fill:#333333;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="49.719036"
+       y="128.69446"
+       id="text1"><tspan
+         style="line-height:5.46px;stroke:#333333;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+         x="49.719036"
+         y="128.69446"
+         id="tspan2">TECHNOLOGY</tspan></text>
+    <rect
+       style="fill:none;stroke:#333333;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1"
+       width="36.564728"
+       height="5.5070696"
+       x="31.323675"
+       y="124.48021"
+       ry="2.7262394"
+       rx="3.527334" />
+    <rect
+       style="fill:none;stroke:#333333;stroke-width:0.600001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1-5"
+       width="36.564728"
+       height="5.5070696"
+       x="88.966866"
+       y="124.75402"
+       ry="2.7262394"
+       rx="3.527334" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:5.64444px;line-height:6.56px;font-family:Akaash;-inkscape-font-specification:'Akaash Medium';text-align:center;text-anchor:middle;fill:#333333;stroke:#333333;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="76.982971"
+       y="112.37138"
+       id="text5-1-2"><tspan
+         style="line-height:6.56px;stroke-width:0.1;stroke-dasharray:none"
+         x="76.982971"
+         y="112.37138"
+         id="tspan6-2-9">improving</tspan><tspan
+         style="line-height:6.56px;stroke-width:0.1;stroke-dasharray:none"
+         x="76.982971"
+         y="118.93138"
+         id="tspan7-7-1">improves</tspan></text>
+  </g>
+</svg>
