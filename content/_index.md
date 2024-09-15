@@ -77,6 +77,7 @@ Agents are modeled through three main abstractions:
 
 ## Why did interest in BDI decrease?
 
+
 ### Hypothesis 1: paradigmatic issues
 
 Unlikely: systems that use it were commonly proposed in the past
@@ -88,13 +89,22 @@ Unlikely: systems that use it were commonly proposed in the past
 - Poor tooling (IDEs, code suggestions, syntax highlighters, linters...)
 - Poor reuse mechanisms
 
-### Hypothesis 2 + 1
+
+---
+
+## Why did interest in BDI decrease?
+
+
+## Hypothesis 2 + 1
 
 **Gaps in technology accumulated** to the point that
 **the paradigm became inconvenient**
 compared to modern GPLs
 
-### $\Rightarrow$ improve the technology to improve the paradigm to improve the technology to...
+ <!-- ### $\Rightarrow$ improve the technology to improve the paradigm to improve the technology to...  -->
+
+<img src="images/hypotesis.svg" width=50% />
+
 
 ---
 
